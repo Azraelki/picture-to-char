@@ -1,1 +1,6 @@
 将一副.png图片转换成字符表示
+example:
+	-o：指定输出文件名字 default:output.txt
+	--width：修改图片的width default:80
+	--height：修改图片的height default:80
+	python ascii.py [-o file] [--width n] [--height n] file.png
